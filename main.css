@@ -34,7 +34,7 @@ body {
   flex-flow: row wrap;
   opacity: 0.7;
 }
-
+ 
 .header p {
   margin: 10px;
 }
@@ -50,10 +50,60 @@ body {
 
 /* Header Ends Here */
 
+/* hero section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.hero-img {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+
+  width: 1400px;
+  height: 1230px;
+  left: 0px;
+  top: 58px;
+  background: rgba(0, 0, 0, 0.67);
+  mix-blend-mode: normal;
+
+}
+
+.navbar ul li {
+  list-style: none;
+  width: 75%;
+  float: right;
+  height: 37px;
+  left: 858px;
+  top: 125px;
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  margin-right: 20px;
+
+  
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+
+.navbar {
+  position: relative;
+  float: left;
+
+}
 
 /* Facilities section */
 .facilities {
   margin: 5rem auto;
+
 }
 
 .heading {
