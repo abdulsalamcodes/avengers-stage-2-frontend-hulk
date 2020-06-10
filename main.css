@@ -61,7 +61,7 @@ body {
 
 .heading {
   text-align: center;
-  font-weight: 600;
+  font-weight: 200;
   margin: 10px 0;
   color: rgb(65, 62, 62);
   margin-top: 2rem;
@@ -71,6 +71,7 @@ body {
 .paragraph {
   color: rgb(78, 77, 77);
   text-align: center;
+  font-weight: 100;
 
 }
 
@@ -115,6 +116,9 @@ body {
   margin-right: 15px;
 
 }
+.more{
+  
+}
 .room_list{
   padding: 0;
   list-style: none;
@@ -133,7 +137,7 @@ body {
   align-items: center;
   flex-direction: row;
   width: 80%;
-  height: 85vh;
+  height: 80vh;
   justify-content: center;
 
 }
