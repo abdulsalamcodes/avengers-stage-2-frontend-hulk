@@ -61,7 +61,7 @@ body {
 
 .heading {
   text-align: center;
-  font-weight: 200;
+  font-weight: 400;
   margin: 10px 0;
   color: rgb(65, 62, 62);
   margin-top: 2rem;
@@ -71,7 +71,7 @@ body {
 .paragraph {
   color: rgb(78, 77, 77);
   text-align: center;
-  font-weight: 100;
+  font-weight: 350;
 
 }
 
@@ -136,7 +136,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
-  width: 80%;
+  width: 90%;
   height: 80vh;
   justify-content: center;
 
