@@ -50,7 +50,6 @@ body {
 
 /* Header Ends Here */
 
-
 /* Facilities section */
 .facilities {
   margin: 5rem auto;
@@ -116,7 +115,7 @@ body {
   border: none;
   outline: none;
   border-radius: 3px;
-  transition: all .3s;
+  transition: all 0.3s;
   font-weight: bold;
 }
 
@@ -132,7 +131,7 @@ body {
   width: 36rem;
 }
 .btn--primary {
-  background: #D66439;
+  background: #d66439;
   color: #2c2c2c;
 }
 .btn--secondary {
@@ -150,7 +149,7 @@ body {
   border: 3px solid white;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .facilities_list ul {
     flex-direction: column;
     align-items: center;
@@ -176,13 +175,11 @@ body {
 
 /* End of facilities section */
 
-
 /* contact us section */
 .form_wrapper {
   background-color: #d66939;
   padding: 5rem;
 }
-
 
 .form_wrapper h2 {
   font-weight: 600;
@@ -220,5 +217,73 @@ body {
   }
   .form input {
     width: 30rem;
+  }
+}
+
+/* ROOM section */
+.rooms {
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+}
+
+.room-header {
+  padding-top: 45px;
+  text-align: center;
+}
+
+.room-header p {
+  font-weight: 100;
+}
+
+.room-nav {
+  /* margin-bottom: 20px; */
+  padding: 15px 25px;
+  float: right;
+  display: flex;
+  font-weight: 100;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
+}
+
+.room-nav img {
+  width: 40px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.room-img {
+  max-width: 400px;
+}
+
+.room-details {
+  max-width: 300px;
+  align-self: center;
+}
+.room-details button {
+  padding: 1.5rem;
+  background-color: #d66939;
+  border: 1px solid #000;
+  outline: none;
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.room-grid {
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.room-overview {
+  font-weight: 100;
+}
+
+/*Media query*/
+@media screen and (max-width: 768px) {
+  .room-grid {
+    display: block;
   }
 }
