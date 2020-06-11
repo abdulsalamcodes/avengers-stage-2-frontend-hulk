@@ -31,48 +31,89 @@
     <section class="about-us"></section>
     <!-- Rooms section -->
     <section class="rooms">
-      <nav class="room-nav">
-        <a href=""
-          ><img src="./assets/icons/arrow-right.svg" alt="Right arrow"
-        /></a>
-        <a>View more</a>
-      </nav>
-      <div class="room-header">
-        <h2>OUR EXQUISITE ROOM</h2>
-        <p>
-          Etsy Hotel provides you with the best comfort and relaxation. Pick a
-          room that suits your taste.
-        </p>
+      <div class="first-rooms">
+        <nav class="room-nav">
+          <a href=""
+            ><img src="./assets/icons/arrow-right.svg" alt="Right arrow"
+          /></a>
+          <a id="view-more">View more</a>
+        </nav>
+        <div class="room-header">
+          <h2>OUR EXQUISITE ROOM</h2>
+          <p>
+            Etsy Hotel provides you with the best comfort and relaxation. Pick a
+            room that suits your taste.
+          </p>
+        </div>
+        <div class="room-grid first">
+          <img
+            class="room-img"
+            src="./assets/ruby-room.png"
+            alt="A beautifully furnished hotel room"
+          />
+          <div class="room-details">
+            <h1>RUBY ROOM</h1>
+            <p class="room-overview">
+              This room offers a calming ambience with piece of furniture and
+              lush curtains
+            </p>
+            <p class="price">$20/NIGHT</p>
+            <button>MAKE RESERVATION</button>
+          </div>
+          <div class="room-details">
+            <h1>DIAMOND ROOM</h1>
+            <p class="room-overview">
+              This is simply warm and elegant. The cosy bathroom is delightful
+              and well adorned
+            </p>
+            <p class="price">$25/NIGHT</p>
+            <button>MAKE RESERVATION</button>
+          </div>
+          <img
+            class="room-img"
+            src="./assets/diamond-room.png"
+            alt="A beautifully furnished hotel room"
+          />
+        </div>
       </div>
-      <div class="room-grid">
-        <img
-          class="room-img"
-          src="./assets/ruby-room.png"
-          alt="A beautifully furnished hotel room"
-        />
-        <div class="room-details">
-          <h1>RUBY ROOM</h1>
-          <p class="room-overview">
-            This room offers a calming ambience with piece of furniture and lush
-            curtains
-          </p>
-          <p class="price">$20/NIGHT</p>
-          <button>MAKE RESERVATION</button>
+
+      <div class="second-rooms hide">
+        <nav class="room-nav">
+          <a href=""
+            ><img src="./assets/icons/arrow-right.svg" alt="Right arrow"
+          /></a>
+          <a id="back">Back</a>
+        </nav>
+        <div class="room-grid">
+          <img
+            class="room-img"
+            src="./assets/meeting-room.png"
+            alt="A beautifully furnished hotel room"
+          />
+          <div class="room-details">
+            <h1>SAPPHIRE ROOM</h1>
+            <p class="room-overview">
+              This room offers a warm stay with the feel of the natural light
+              from the window view
+            </p>
+            <p class="price">$30/NIGHT</p>
+            <button>MAKE RESERVATION</button>
+          </div>
+          <img
+            class="room-img"
+            src="./assets/diamond-room.png"
+            alt="A beautifully furnished hotel room"
+          />
+          <div class="room-details">
+            <h1>DIAMOND ROOM</h1>
+            <p class="room-overview">
+              This offers a golden atmospheric stay putting the guest in a more
+              relaxing and happy mood
+            </p>
+            <p class="price">$50/NIGHT</p>
+            <button>MAKE RESERVATION</button>
+          </div>
         </div>
-        <div class="room-details">
-          <h1>DIAMOND ROOM</h1>
-          <p class="room-overview">
-            This is simply warm and elegant. The cosy bathroom is delightful and
-            well adorned
-          </p>
-          <p class="price">$25/NIGHT</p>
-          <button>MAKE RESERVATION</button>
-        </div>
-        <img
-          class="room-img"
-          src="./assets/diamond-room.png"
-          alt="A beautifully furnished hotel room"
-        />
       </div>
     </section>
 
@@ -183,5 +224,6 @@
 
     <!-- Footer section -->
     <footer class="footer"></footer>
+    <script src="script.js"></script>
   </body>
 </html>
