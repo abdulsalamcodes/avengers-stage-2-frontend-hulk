@@ -21,7 +21,17 @@
 
   <!-- This hero is a section on it's own -->
   <section class="hero">
-    <nav class="navbar"></nav>
+    <img class="hero-img" src="./assets/hero-img.png">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Rooms</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact US</a></li>
+    </ul>
+    </nav>
     <section class="hero__main"></section>
   </section>
 
@@ -30,7 +40,38 @@
   <!-- The about us section -->
   <section class="about-us"></section>
   <!-- Rooms section -->
-  <section class="rooms"></section>
+  <section class="rooms">
+    <header>
+      <h2 class="heading">OUR EXQUISITE ROOMS</h2>
+      <p class='paragraph'>
+        Esty Hotel provides you with the best comfort and relaxation. Pick a room that suits your taste
+      </p>
+    </header>
+    <div class="room_list">
+      <div class="room_item">
+          <img class = "room_image" src="assets/ruby-room.png" alt="">
+          <div class="room_desc_container">
+            <h1 class="room_name">RUBY ROOM</h1>
+            <p class="room_desc">This room offers a calming ambience with piece of furniture and lush curtains</p>
+            <p class="room_price">$20/Night</p>
+            <div class='button'>
+              <button class='btn btn--primary btn_large'>MAKE RESERVATION</button>
+            </div>
+          </div>
+        </div> 
+        <div class="room_item">
+          <div class="room_desc_container">
+            <h1 class="room_name two">DIAMOND ROOM</h1>
+            <p class="room_desc two">This room offers a calming ambience with piece of furniture and lush curtains</p>
+            <p class="room_price two">$25/Night</p>
+            <div class='button_room'>
+              <button class='btn btn--primary btn_large two'>MAKE RESERVATION</button>
+            </div>
+          </div>
+          <img class = "room_image" src="assets/ruby-room.png" alt="">
+        </div>
+    </div>
+  </section>
 
   <!-- Facilities secction -->
   <section class="facilities container">
